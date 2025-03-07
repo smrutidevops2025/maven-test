@@ -6,7 +6,7 @@
 
   <groupId>com.idream</groupId>
   <artifactId>app</artifactId>
-  <version>1.0</version>
+  <version>1.4</version>
 
   <name>app</name>
   <!-- FIXME change it to the project's website -->
@@ -16,8 +16,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-     <sonar.host.url>http://35.192.201.124:9000</sonar.host.url>  <!-- Your SonarQube instance URL -->
-    <sonar.login>sqp_4fa4a1dadda5a7d59786342653c2ea52cc88cc08</sonar.login>  <!-- SonarQube token generated earlier -->
+     <sonar.host.url>http://localhost:9000</sonar.host.url>  <!-- Your SonarQube instance URL -->
+    <sonar.login>sqp_8a28b555d08f7f973506ab1e184500caebeb0341</sonar.login>  <!-- SonarQube token generated earlier -->
   </properties>
   <dependencies>
     <dependency>
@@ -77,5 +77,18 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    
   </build>
+<distributionManagement>
+<repository>
+<id>maven-releases</id>
+<name>maven-releases</name>
+<url>http://52.66.179.54:8081/repository/maven-releases/</url>
+</repository>
+<snapshotRepository>
+<id>maven-snapshots</id>
+<name>maven-snapshots</name>
+<url>http://52.66.179.54:8081/repository/maven-snapshots/</url>
+</snapshotRepository>
+</distributionManagement>
 </project>
