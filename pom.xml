@@ -6,7 +6,7 @@
 
   <groupId>com.idream</groupId>
   <artifactId>app</artifactId>
-  <version>1.4</version>
+  <version>1.5</version>
 
   <name>app</name>
   <!-- FIXME change it to the project's website -->
@@ -83,7 +83,7 @@
 <repository>
 <id>maven-releases</id>
 <name>maven-releases</name>
-<url>http://52.66.179.54:8081/repository/maven-releases/</url>
+<url>http://54.242.187.158:8081/repository/maven-releases/</url>
 </repository>
 <snapshotRepository>
 <id>maven-snapshots</id>
